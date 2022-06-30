@@ -1,9 +1,27 @@
 .text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
+    text-align: left;
 }
 .text p {
     font-weight :400;
     font-family: sans-serif;
     padding-top: 15px;
+    color: #c7c7cb;
+   white-space: wrap;
+   padding-right: 35rem;
 }
+.text h2 {
+    color: navy;
+    font-style: italic;
+}
+ .image {
+   
+ float: right;
+padding-top: 10px;
+padding-right: 45px;;
+border-radius: 2rem;
+
+
+
+ }

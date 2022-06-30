@@ -7,39 +7,20 @@ import {BsInstagram} from "react-icons/bs";
 const Footer = () => {
   return (
     <div>
-       <footer>
-
-<div class="footer-container">
-    <h4>Travel  Wonders</h4>
-    <div className="footer-col">
-        <h4>Mainpage</h4>
-        <ul>
-            <li>Blog</li>
-            <li>Contact us</li>
-            <li>places</li>
-           
-        </ul>
-    </div>
-    <div className="footer-col">
-        <h4>Find us at</h4>
-        <div className="icons">
-             <a href="https://www.linkedin.com/"><BsLinkedin/></a>
-             </div>            
-             <div className="icons">  
-             <a href="https://www.twitter.com/"><BsTwitter/></a>
-             </div> 
-             <div className="icons">
-             <a href="https://www.facebook.com/"><BsFacebook/> </a>
-             </div>
-             <div className="icons">
-             <a href="https://www.instagram.com/"><BsInstagram/> </a>
-             </div>
-    </div>
-</div>
-
-
+      <div className="footer-basic">
+        <footer>
+            <div className="social"><a href="https://www.instagram.com/"><BsInstagram/><i className="icon ion-social-linked-in"></i></a><a href="https://www.linkedin.com/"><BsLinkedin/> <i class="icon ion-social-twitter"></i></a><a href="ttps://www.twitter.com/"><BsTwitter/><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li className="list-inline-item"><a href="#">Home</a></li>
+                <li className="list-inline-item"><a href="#">Services</a></li>
+                <li className="list-inline-item"><a href="#">About</a></li>
+                <li className="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Travel Wonders © 2022</p>
 
 </footer>
+    </div>
     </div>
   )
 }
