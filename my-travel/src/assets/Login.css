@@ -1,14 +1,10 @@
-:root{
-	--pixel: 8px;
-	--bcolor: crimson; /*rebeccapurple*/
-	--border: 1px solid #b9b9b9;
-	--btransparent: 1px solid transparent;
-}
+
 
 body{
 	margin-top: 25vh;
 	text-align: center;
-    background-image: url();
+
+  
 }
 
 .form-holder,

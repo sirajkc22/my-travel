@@ -12,8 +12,8 @@ const Footer = () => {
             <div className="social"><a href="https://www.instagram.com/"><BsInstagram/><i className="icon ion-social-linked-in"></i></a><a href="https://www.linkedin.com/"><BsLinkedin/> <i class="icon ion-social-twitter"></i></a><a href="ttps://www.twitter.com/"><BsTwitter/><i class="icon ion-social-facebook"></i></a></div>
             <ul class="list-inline">
                 <li className="list-inline-item"><a href="#">Home</a></li>
-                <li className="list-inline-item"><a href="#">Services</a></li>
-                <li className="list-inline-item"><a href="#">About</a></li>
+                <li className="list-inline-item"><a href="#">Destination</a></li>
+                <li className="list-inline-item"><a href="#">contact</a></li>
                 <li className="list-inline-item"><a href="#">Terms</a></li>
                 <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
             </ul>
