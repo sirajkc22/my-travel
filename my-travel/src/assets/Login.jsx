@@ -1,5 +1,5 @@
 import React from 'react'
-import{Nav,Form} from "react-bootstrap"
+import{Nav,Form,Image} from "react-bootstrap"
 import { useEffect, useState } from 'react'
 import  './Login.css';
 const Login = () => {
@@ -14,7 +14,8 @@ const Login = () => {
    
   }
   return (
- 
+ <>
+ <Image src="https://previews.123rf.com/images/mipan/mipan1312/mipan131200011/24691387-login-concept-with-red-mouse-and-cable-in-the-shape-of-login-word.jpg"fluid />
 	<Form onSubmit={handleSubmit}>
 <div class="form-holder">
 	<h2>Login Form</h2>
@@ -27,7 +28,7 @@ const Login = () => {
 		</span>
 	</div>
 	<div class="form-controler">
-		<input type="password" class="form-input" placeholder="Password" onChange={(e) => { setPassword(e.target.value) }}/>
+		<input type="password" class="form-input" placeholder="Password"onChange={(e) => setPassword(e.target.value)} />
 		<span class="form-label-holder">
 			<label>
 				<span>Password</span>
@@ -41,6 +42,7 @@ const Login = () => {
 	
 </div>
 </Form>
+</>
   )
   }
 export default Login

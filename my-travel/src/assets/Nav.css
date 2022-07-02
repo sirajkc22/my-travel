@@ -11,3 +11,7 @@ background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
 .nav-right {
 margin-left: 150px;
 }
+.info {
+    text-align: left;
+    font-style: oblique;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Register.css'
 import { useState } from 'react'
-import { Form} from 'react-bootstrap'
+import { Form ,Image} from 'react-bootstrap'
 const Register = () => {
 	const useGetFromInput = (initialValue) => {
 		let [value, setValue] = useState(initialValue)
@@ -35,6 +35,7 @@ const Register = () => {
   
   return (
     <div>
+		  
 		<Form onSubmit={handleForm}>
     <div class="form-holder">
 	<h2>Regustration Form</h2>
